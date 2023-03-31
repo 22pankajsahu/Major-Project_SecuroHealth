@@ -9,14 +9,10 @@ To avoid this kind of misleading approaches, we have designed a secured platform
 
 # Features
 
-1 Cryptography:
-Security is the major issue in this system. To secure the user healthcare medical records, we have 
-used private key encryption technique. We are using Advance Encryption Standard (AES128bit) to encrypt the data. The private/secret key for the encryption will be encoded in the QR 
-Code. User and hospital has to scan the QR Code to access the data.
-2 Payment Gateway Integration: 
-We have integrated the payment gateway to collect the billing amount. It will help hospitals to 
-receive all the charges of patient from admission to discharge.
-3 QR Code Integration:
+1. Cryptography:
+Security is the major issue in this system. To secure the user healthcare medical records, we have used private key encryption technique. We are using Advance Encryption Standard (AES128bit) to encrypt the data. The private/secret key for the encryption will be encoded in the QR Code. User and hospital has to scan the QR Code to access the data.
+2. Payment Gateway Integration: We have integrated the payment gateway to collect the billing amount. It will help hospitals to receive all the charges of patient from admission to discharge.
+3. QR Code Integration:
 For each user the unique QR Code will be generated. It consists of Card Number and 
 Private/Secret Key. Hospital Dashboard will be required to scan this QR Code to admit the 
 patient.
